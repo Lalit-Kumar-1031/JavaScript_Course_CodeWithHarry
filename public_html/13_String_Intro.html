@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <script>
+            /*
+             String is a data type that is used to store text data like your name ,address ect.
+             
+             String can be store in two format 1) with doble quote 2) With single quote
+    
+             Ex- for string both syntax are correct.    
+             let name="Lalit";
+             let address='Budaun'; 
+    
+            Template Literals :- 
+            
+            template literals are same as string but template literals are used backtick (``)instead of quotes.
+             
+           ***
+            In a template literal,you can put the variable and compiler combined that variable value into 
+            template literal that process is called string interpolation.
+            
+            let name="Lalit";
+            let friend='Tarun';
+    
+           let sentance=`${name} is a friend of ${friend}`;
+           document.write(sentance);
+    
+           also you can put single,double quote into template literals,like this.
+           let sentance=`Lalit 'is' a "friend" of Tarun`;
+           
+           document.write(sentance);
+         
+          Output :- Lalit 'is' a "friend" of Tarun
+    
+    -------------------------------------------------------------------------
+    
+           let name="Lalit";
+           let friend='Tarun';
+    
+           let sentance=`${name} is "a' friend of ${friend}`;
+           document.write(sentance);
+    
+    -----------------------------------------------------------------------------------------------
+    Escape Sequence Character :- these character provide unique facility in a string.
+    
+    Q.1 how you can add single quote as a character in single quote string.
+    
+    let fruit='bana'na'; //it give an error
+    document.write(fruit);
+    
+    this give a error so how you can do this.
+    You can do this by using Escape sequence character.
+    
+    let fruit='bana\'na';   //Now its print with single quote.
+    document.write(fruit);
+    
+   Note :- 
+   same concept are follow for double quote string.
+   let fruit="bana\"na";
+    
+   Note :- 
+   Escape Sequence Character have two character(\') but treat as a single character and also its length is 1.
+    
+    Some Escape Sequence Character :-
+    
+    1)\' put single quote into single quote string
+    2)\" put double quote into double code string
+    3)\n new linw
+    4)\r carriage return
+    5)\t tab
+    
+             */
+            
+            let fruit='bana\'na';
+            let fruit2="bana\"na";
+            document.write(fruit);
+            document.write(fruit2);
+
+            
+           
+        </script>
+    </body>
+</html>

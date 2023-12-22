@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <script>
+            /*
+            //Q.1 -Using for loop print marks of a student from an object.
+            let marks=
+            {
+             Lalit:98,
+             kapil:99,
+             Tarun:89,
+             Chander:98
+            };
+            
+            //Object.keys(obj name); return all keys of the object and if you want 
+            //to know how much key in this object you can use length function
+            
+             document.write("keys of object Marks is : "+Object.keys(marks)+" <br>");
+             document.write("length of object Marks is : "+Object.keys(marks).length+" <br>");
+             
+            for(let i=0;i<Object.keys(marks).length;i++){
+                document.write("The marks of "+Object.keys(marks)[i] +" are  "+marks[Object.keys(marks)[i]]+"<br>");
+            }
+            
+            //Object.keys(marks)[i] this syntax gives the key of an object
+            //marks[Object.keys(marks)[i]] this syntax gives the key value of an object.
+            
+            //---------------------------------------------------------------
+            
+            //Q.2 Using for in loop print marks of a student from an object.
+            
+            
+            for(let i in marks){
+                document.write(i+" marks is "+marks[i]+"<br>");
+            }
+            
+            //------------------------------------------------------------
+            
+            //Q.3 write a program that run until the user not enter the coreect number 
+            //if user enter correct number then program execution are stopped..
+            
+            let correctNum=23;
+            let i;
+            while(i!=correctNum){
+               i=prompt("Enter anumber") ;
+            }
+            
+            document.write("you have entered the correct number : "+i);
+     
+             */
+            
+            
+            //Q.4 Calculate mean of 4 numbers using function
+            
+            const meanOf4=()=>{
+             let i=1;
+             let sum=0;
+             while(i<=4){
+               let num=prompt("Enter the "+i+" Number :") ;
+               num=Number.parseInt(num);
+               sum+=num;
+               i++;
+              }   
+            return sum/4;
+            };
+            
+            document.write("Mean of 4 numbers is : ",meanOf4());
+            
+            
+            
+            
+            
+            
+        </script>
+    </body>
+</html>

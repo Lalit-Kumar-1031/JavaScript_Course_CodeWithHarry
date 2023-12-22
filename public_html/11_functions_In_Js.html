@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>11.Functions In Js </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <script >
+            //function is a block of code that take some input and generate the
+           //output and function are created for perform a particular task and reduce the use of repeated code.
+            
+            let num1=prompt("Enter number 1");
+            num1=Number.parseInt(num1);
+            
+            let num2=prompt("Enter number 2");
+            num2=Number.parseInt(num2);
+            
+            //this is a function syntax 
+            //Method :-  1
+            function avg(num1,num2){
+                return (num1+num2)/2;
+            }
+            
+            //Method- 2 to create a function
+            //create function using this method are aclled array function method
+            const sum=(n1,n2)=>{
+                document.write("<br>"+n1+n2+"<br>");
+                return n1+n2;
+            };
+            
+            document.write("Avg of two number is : ",avg(num1,num2));
+            let result=sum(num1,num2);
+            document.write("sum of two number is : ",result);
+            
+            
+            
+        </script>
+    </body>
+</html>

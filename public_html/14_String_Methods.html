@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <script>
+            /*
+             String Methods are used to manipulate the string.
+             
+             1) length property
+      
+                let name="Lalit";
+                document.write(name.length); // it gives 5 length of string
+    
+             2)toUpperCase() method
+     
+                let name="Lalit";
+                document.write(name.toUpperCase()); // it convert Lalit to LALIT
+                
+             3)toLowerCase()   
+     
+                let name="LALIT";
+                document.write(name.toLowerCase());// it convert LALIT to lalit
+     
+             4)slice() Method - slice method is used to split/slice to the string.
+    
+                 1) Variate no 1
+               
+                    let name="Lalit";
+                    document.write(name.slice(2,4)+"  "); //it give li
+                    
+                    //Note :- index 2 is included and but 4 is not included.
+    
+                 2) Variate no 2   
+                    let name1="Lalit";
+                    document.write(name1.slice(2)); //it give lit
+                    
+                    //Note :- index 2 to end index are split.
+    
+             5)replace() or replaceAll():- 
+     
+                  let name="Lalit Kumar Kumar";
+                  
+                  // replace() method replace only first occurance of Kumar with Maurya so it give 
+                  // this answer - Lalit Maurya Kumar ,you can see second Kumar are not replace.
+                  let res=name.replace("Kumar","Maurya");
+                  document.write(res);
+                  
+                 //Note :- if you want to replace Kumar with all avaiable occurances then use replaceAll()
+                  document.write(name.replaceAll("Kumar","Maurya"));
+                  //its give this answer Lalit Maurya Maurya
+    
+             6)concat()Method :- also instaed of this method you can use + operator to add two or more strings.
+     *
+             
+    
+                let name="Lalit";
+                let friend="Chander Shekhar";
+    
+                document.write(name.concat(" is a friend of ",friend," OK Done"));
+    
+             //Note :- concat method are add all provide string("is a friend of ",fried,"OK Done")into name 
+                  //   from left to right direction.
+                  
+              //OutPut -: Lalit is a friend of Chander Shekhar OK Done
+    
+              7)trim() Method :- this method are used to remove all white spaces from a string.
+     
+             
+    
+                 let name="   Lalit  ";
+      
+             
+                 
+                 document.write(name.length); //its length are 10 //   Lalit print with all spaces
+                 let newName=name.trim();
+                 document.write(newName);//Lalit print without spaces amd its length 5 after trim
+    
+    -------------------------------------------------------------------------------------------------
+                 
+            **Note :-  In Js string are immutable(not changable).
+            
+            When you applied these methods on a string let say name ,and then you think 
+            name string are changed then you are wrong.In Js string are immutable(not changable).when 
+            you applied these method on a string name then new string are return to you but name string
+            are still same.  
+     * 
+             */
+                    
+                    let name="Lalit";
+                    
+                    name[1]="P"; //this is not possible
+                    document.write(name); //name are not changed
+     
+     
+             
+    
+    
+             
+                  
+     
+             
+    
+    
+             
+    
+     
+            
+             
+        </script>
+    </body>
+</html>
