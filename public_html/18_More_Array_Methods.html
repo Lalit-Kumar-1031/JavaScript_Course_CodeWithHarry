@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <script>
+            /*
+             
+    1) delete operator :- 
+    
+    delete operator are used to delete the array element but array length are not effected.
+     
+ 
+    let num=[10,20,5,12];
+    
+    document.write(num+"<br>");
+    document.write("Array length before deletion : "+num.length+"<br>");  //length 4
+    
+    delete num[0]; //delete 0th element  
+    
+    document.write(num+"<Br>");
+    document.write("Array length after deletion : "+num.length); // length 4
+    
+    //Note :- so you can see array length are not changed.so delete operator does not change the array length.
+     
+    2)concat() Method :- 
+    
+    concat() method are used to join the arrays and return a new array and original array are not changed.
+     
+    let a=[1,2,3,4,5];
+    let b=[10,20,30,40,50];
+    let c=[60,70,80,90,100];
+    
+    let newArray=a.concat(b,c); // concat three array into one array newArray.
+    
+    document.write(newArray);
+    
+    
+    3)sort()Method :- 
+    
+    sort() method are used to sort an array alphabatically ,not alpha numerically.
+    
+    if array contains number then number are sorted alphabatically. 
+    sbse phle 1 se start hone wale aayege fir 2,fir 3 so on.
+    
+    //Ex:- 
+    let a=[500,2,13,4,5,100];
+    
+    document.write("Unsorted Array : "+a+"<br>");
+    
+    a.sort();
+    
+    document.write("sorted Array : "+a);
+    //Note:- sort change the original array.
+    
+    
+    //result is : 100 13 2 4 5 500
+     
+     
+    **Remember :- 
+    sort method take compare()function as optional argument 
+    if you provide the compare function then sorting is done basis on comapre function.
+    
+    if you want to sort an array numerically then use compare function.
+    
+     let a=[500,2,13,4,5,100];
+    
+    //this comapre function for increaseing order
+//    let compare=(a,b)=>{
+//    return a-b;
+//    };
+    
+    //this comapre function for decreasing order
+    let compare=(a,b)=>{
+    return b-a;
+    };
+    
+    document.write("Unsorted Array : "+a+"<br>");
+    
+    a.sort(compare);
+    
+    document.write("sorted Array : "+a);
+    
+    
+    4)reverse()method :- reverse() method are used to reverse the array and it change the original array. 
+    
+    //Ex:- 
+     
+    let a=[500,2,13,4,5,100];
+    
+    document.write("before Array Reverse : "+a+"<br>");
+    
+    a.reverse();
+    
+    document.write("After Array Reverse : "+a); //After Array Reverse : 100,5,4,13,2,500
+     
+    5)splice() method :-are used to add new elements to the array and also use for remove the element 
+    from the array. 
+    
+    let a=[500,2,13,4,5,100];
+    
+let deletedValues=a.splice(position to add,no of element to remove,all element you want to add into array);
+    
+    1)Argument :- position index where you want to add new element
+    2)number of element you want to remove
+    3)all elements you want to add into array
+    
+    //deletedValues are another array that store deleted elements of the array.
+    
+    let a=[500,2,13,4,5,100];
+    
+    
+    document.write("before splice operation : "+a+"<br>"+a.length);
+    
+    let deletedValues=a.splice(1,4,200,300,400);
+    
+    document.write("<br>After splice operation : "+a+"<br> "+a.length);
+    
+    document.write("<br>Deleted element: "+deletedValues+"<br>");
+     
+     6)slice() method :- splice() method are used to slice out the array and return a new array.
+    
+    Note:- Original array are not changed.
+    
+       1)Variate :- used only single argument
+    
+        let a=[500,2,13,4,5,100];
+    
+       let newArray=a.slice(2);
+       
+       // a array ke index 2 se end tak sare element newArray me copy ho jayege.
+    
+       document.write(newArray); // 13,4,5,100
+       
+       2)Variate :- used two argument, start index and end index (end index are not included)
+     
+       
+       let a=[500,2,13,4,5,100];
+    
+       let newArray=a.slice(2,5);
+       
+       // a array ke index 2 se 4 index tak ke element newArray me copy ho jayege.
+       
+       document.write(newArray); //13,4,5
+     
+             */
+       
+       
+     
+             
+    
+    
+    
+    
+             
+     
+     
+            
+    
+             
+             
+    
+             
+    
+            
+        </script>
+    </body>
+</html>

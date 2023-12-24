@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <script>
+          /*
+           1)map() Method :- 
+    
+           JavaScript forEach():-
+    
+           The forEach() method is primarily used for iterating over array elements and 
+           executing a provided function once for each array element. It doesn’t create a new array 
+           and doesn’t return anything. It’s mainly used when you want to perform an operation on 
+           each element of the array without creating a modified version of the array.
+    
+    
+           JavaScript map():-
+    
+           the map() method is also used for iterating over array elements, 
+           but its main purpose is to create a new array by applying a provided function to 
+           each element of the original array. It returns a new array with the results of 
+           applying the function to each element.
+
+            Syntax:
+            map((currentElement, indexOfElement, array) => { ... } );
+    
+            Parameters:
+            callback: A function to execute for each element, taking three arguments:
+            currentValue: The current element being processed in the array.
+            index (optional): The index of the current element being processed.
+            array (optional): The array map was called upon.
+    
+            Ex- 
+  
+            const numbers = [1, 2, 3, 4];
+
+            const doubledNumbers = numbers.map((number) => {
+            return number * 2;
+            });
+
+            document.write(doubledNumbers);
+     
+            --------------------------------------------------------------
+            
+            2)filter()Method:-
+    
+            JavaScript Array filter() Method is used to create a new array from a 
+            given array consisting of only those elements from the given array that satisfy a 
+            condition set by the argument method.
+    
+        Example 1:
+     
+        function canVote(age) {
+	return age >= 18;
+        }
+
+        function func() {
+	let filtered = [24, 33, 16, 40].filter(canVote);
+	document.write(filtered);
+        }
+    
+        func(); //calling of the function.
+     
+       //OutPut : 24,33,40
+       
+       
+      // Example 2
+      
+      const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+
+      const result = words.filter((word) => word.length > 6);
+
+      document.write(result);
+      // Expected output: Array ["exuberant", "destruction", "present"]
+      
+     //Note:map and filter not modify the original array.
+     
+     //-------------------------------------------------------------------
+     3) reduce() Method :-
+    
+     The Javascript arr.reduce() method in JavaScript is used to reduce the array to a single value 
+     and executes a provided function for each value of the array (from left to right) and 
+     the return value of the function is stored in an accumulator. 
+
+     Syntax: 
+    
+     array.reduce((Accumulator, currentValue, currentIndex, arr)=>{
+    
+     } )
+
+    Parameters:
+    This method accepts five parameters as mentioned above and described below:
+
+    function(total, currentValue, index, arr): 
+    It is the required parameter and is used to run for each element of the array.
+    It contains four parameters which are listed below:
+    
+    Accumulator: It is a required parameter and is used to specify the initial value or 
+    the previously returned value of the function.
+    
+    currentValue: It is a required parameter and is used to specify the value of the current element.
+    
+    currentIndex: It is an optional parameter and is used to specify the array index of the current element.
+    
+    arrayName: It is an optional parameter and is used to specify the array object the current 
+    element belongs to.
+    
+    Accumulator also used for store the resultant value of the previous iteration.
+    
+    //Example :- Calculate the sum of the array
+     
+    
+    let arr=[10,12,15,20,25];
+    
+    let sum=arr.reduce((accum,currval,currIndex)=>{
+    return accum+currval;
+    //accum ka kaam yah hai ki wo currval ki value ko apne ander add krta ja rha hai.
+    });
+    
+    document.write(sum);
+     
+           */
+    
+    
+           
+
+
+    
+            
+           
+
+    
+           
+           
+            
+        </script>
+    </body>
+</html>
