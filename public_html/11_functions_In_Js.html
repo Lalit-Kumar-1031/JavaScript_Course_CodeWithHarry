@@ -28,15 +28,20 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
             }
             
             //Method- 2 to create a function
-            //create function using this method are aclled array function method
+            //create function using this method are called arrow function method
             const sum=(n1,n2)=>{
                 document.write("<br>"+n1+n2+"<br>");
                 return n1+n2;
             };
+
+            let sub=(n1,n2)=>{
+                return n1-n2;
+            }
             
             document.write("Avg of two number is : ",avg(num1,num2));
             let result=sum(num1,num2);
             document.write("sum of two number is : ",result);
+            console.log("Result of Subtraction is :",sub(12,10));
             
             
             
